@@ -1,0 +1,170 @@
+html {
+    background: url(../img/2.jpg)
+}
+
+#welcome {
+font-size: 300%;
+color: black;
+font-family: Impact;
+}
+
+* {
+    font-family: Impact;
+}
+.Description {
+font-size: 150%;
+color: orange;
+}
+
+.Description p{
+color: black;
+}
+
+a[href="https://farvater.travel/vse-tury_tury-v-stranu-turkey/"] {
+color: red;
+font-family: 'Times New Roman';
+}
+a[href="https://www.otpusk.com/search/egypt/"] {
+color: red;
+font-family: 'Times New Roman';
+}
+a[href="https://www.otpusk.com/search/uae/"] {
+color: red;
+font-family: 'Times New Roman';
+}
+
+#cause + h2 {
+    font-size: 90%;
+    text-decoration: line-through;
+}
+
+#cause {
+    color: orange;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#Turkey::first-letter {
+    color: red;
+} 
+
+#Egypt::first-letter {
+    color: red;
+}
+
+#OAE::first-letter {
+    color: red;
+}
+
+.Description::first-line {
+    color: red;
+}
+
+p:nth-last-child(1) {
+    color: red;
+}
+
+a:link { color: red; }
+a:visited { color: purple; }
+
+h6 ~ h4 {
+    color: orange;
+}
+
+a[href="http://www.desadmi.com/ua/turistam/761-pravila-povedinki-v-goteli"] {
+    color: blue;
+}
+
+a[href^="http"] {
+    background: url(../img/3.png) no-repeat;
+    padding-left: 1px;
+   }
+
+.Table {
+    text-decoration: underline;
+    font-size: 150%;
+    color: red;
+}
+
+.Ool {
+    text-align: justify;
+    color: navy; 
+    margin-left: 20px;
+    border-left: 1px solid navy; 
+    padding-left: 15px; 
+    font-size: 150%;
+    text-decoration: underline;
+}
+
+.Needing {
+    text-align: justify;
+    color: navy; 
+    margin-left: 20px;
+    border-left: 1px solid navy; 
+    padding-left: 15px; 
+    font-size: 150%;
+    text-decoration: underline;
+}
+
+.End {
+    color: #52525257;
+    position: relative;
+    padding: 0 15px;
+}
+.Number {
+    color: rgb(15, 1, 5);
+    padding:8px;
+}
+
+#Turkey {
+    text-shadow: 0.5px 0.5px 0px rgba(253, 13, 13, 0.979);
+    border-collapse: collapse;
+    
+}
+
+#Egypt {
+    text-shadow: 0.5px 0.5px 0px rgba(253, 13, 13, 0.979);
+    border-collapse: collapse;
+}
+
+#OAE {
+    text-shadow: 0.5px 0.5px 0px rgba(253, 13, 13, 0.979);
+    border-collapse: collapse;
+}
+
+.list1 {
+    color: #D8E6F3;
+    font-size: 90%;
+    text-decoration: wavy;
+}
+
+li::before {
+    content: '*';
+    color: green;
+}
+
+li:hover::before{
+    color: rgb(238, 23, 23);
+    content: "\1303";
+
+.Propose {
+    text-shadow: 0.5px 0.5px 0px rgba(253, 13, 13, 0.979);
+    border-collapse: collapse;
+}
+
+th, td:first-child {
+    color: green;
+    padding: 10px 15px;
+}
+
+.Warnings {
+    text-align: justify;
+    color: orange; 
+    margin-left: 20px;
+    border-left: 1px solid red; 
+    padding-left: 15px; 
+    font-size: 150%;
+    text-decoration: underline; 
+}
